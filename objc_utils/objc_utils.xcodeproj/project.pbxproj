@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6574B7CE25A09F33005FAFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574B7CD25A09F33005FAFD2 /* main.m */; };
+		65D95AF925A1A15F00C55C1E /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D95AF825A1A15F00C55C1E /* NSString+Utils.m */; };
+		65D95AFD25A1A5E700C55C1E /* NSData+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D95AFC25A1A5E700C55C1E /* NSData+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		6574B7CA25A09F33005FAFD2 /* objc_utils */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objc_utils; sourceTree = BUILT_PRODUCTS_DIR; };
 		6574B7CD25A09F33005FAFD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65D95AF725A1A15F00C55C1E /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		65D95AF825A1A15F00C55C1E /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		65D95AFB25A1A5E700C55C1E /* NSData+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Utils.h"; sourceTree = "<group>"; };
+		65D95AFC25A1A5E700C55C1E /* NSData+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				6574B7CD25A09F33005FAFD2 /* main.m */,
+				65D95AF725A1A15F00C55C1E /* NSString+Utils.h */,
+				65D95AF825A1A15F00C55C1E /* NSString+Utils.m */,
+				65D95AFB25A1A5E700C55C1E /* NSData+Utils.h */,
+				65D95AFC25A1A5E700C55C1E /* NSData+Utils.m */,
 			);
 			path = objc_utils;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D95AFD25A1A5E700C55C1E /* NSData+Utils.m in Sources */,
 				6574B7CE25A09F33005FAFD2 /* main.m in Sources */,
+				65D95AF925A1A15F00C55C1E /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
